@@ -7,13 +7,13 @@
     "jsx": "preserve",
     "jsxImportSource": "vue",
     "moduleResolution": "node",
-    "resolveJsonModule": true,
+    "resolveJsonModule": true
   },
   "files": [],
-  "include": [".nuxt/nuxt.d.ts"],
+  "include": [],
   "references": [
     {
-      "path": "./tsconfig.app.json"
+      "path": "./tsconfig.lib.json"
     },
     {
       "path": "./tsconfig.spec.json"

@@ -6,16 +6,19 @@ export default defineNuxtConfig({
   workspaceDir: '../../',
   srcDir: 'src',
   devtools: { enabled: true },
+
   devServer: {
     host: 'localhost',
     port: 4200,
   },
+
   typescript: {
     typeCheck: true,
     tsConfig: {
       extends: '../tsconfig.app.json', // Nuxt copies this string as-is to the `./.nuxt/tsconfig.json`, therefore it needs to be relative to that directory
     },
   },
+
   imports: {
     autoImport: true,
   },
@@ -25,4 +28,6 @@ export default defineNuxtConfig({
   vite: {
     plugins: [nxViteTsPaths()],
   },
+
+  compatibilityDate: '2024-10-28',
 });

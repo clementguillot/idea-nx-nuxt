@@ -1,6 +1,11 @@
+<script setup lang="ts">
+import { Welcome } from '@idea-nx-nuxt/my-lib';
+</script>
+
 <template>
   <div class="about">
     <h1>This is an about page.</h1>
+    <Welcome />
   </div>
 </template>
 
